@@ -8,5 +8,6 @@
     "start": "node server.js"
   },
   "author": "papavictor",
+  "repository": "praveen-vishnu/my-first-express-demo",
   "license": "ISC"
 }
