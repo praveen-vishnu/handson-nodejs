@@ -9,5 +9,8 @@
   },
   "author": "papavictor",
   "repository": "praveen-vishnu/my-first-express-demo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
