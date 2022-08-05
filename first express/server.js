@@ -9,7 +9,7 @@ app.get("/contact", function (req, res) {
     res.send("<h1>contact meat angela@gmail.com</h1>")
 })
 app.get("/about", function (req, res) {
-    res.send("<h1>i'm in love with laxmi</h1>")
+    res.send("<h1>i'm in love with laxmi. I don't know how to express my feelings to her</h1>")
 })
 app.get("/hobies", function (req, res) {
     res.send("<h1>streming</h1>")
