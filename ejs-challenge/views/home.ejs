@@ -1,2 +1,26 @@
-<%- include('header') -%> 
-<%- include('footer') -%> 
+<%- include('header') -%>
+
+    <div class="">
+        <h1 class="heading">
+            <%= pageTitle %>
+        </h1>
+
+        <p>
+            <%= content %>
+        </p>
+    </div>
+    <% if (blogPosts) { %>
+        <% for( let index=0; index < blogPosts.length; index++ ) { %>
+            <div>
+                <h3 class="post-heading heading">
+                    <%= blogPosts[index].postTitle %>
+                </h3>
+                <p>
+                    <%= blogPosts[index].postContent.slice(0,100) %>... <a href="/posts/<%= blogPosts[index].postTitle %>">Read more</a>
+                </p>
+            </div>
+        <% } %>
+
+    <% } %>
+
+ <%- include('footer') -%>
